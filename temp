@@ -28,3 +28,16 @@ sendMessage: async ({ text, file }) => {
     toast.error(msg);
   }
 },
+
+
+
+
+
+
+//component
+const send = () => {
+  sendMessage({
+    text: "Here’s the document",
+    file: selectedFile,
+  });
+};
